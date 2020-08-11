@@ -11,4 +11,4 @@ RUN apt-get update && \
 # http://stackoverflow.com/questions/23524976/capturing-output-of-python-script-run-inside-a-docker-container
 ENV PYTHONUNBUFFERED=0
 
-COPY dotfiles/pip.conf.aliyun ~/.pip/pip.conf
+COPY dotfiles/pip.conf.aliyun /root/.pip/pip.conf
