@@ -15,7 +15,7 @@ make docker-build
 #### 启动镜像 - 姿势 1: 拉起 jupyter server
 
 ```bash
-docker run -t j-jupyter-pandas-machine-learning
+docker run -p 8899:8899 -t j-jupyter-pandas-machine-learning
 ```
 
 浏览器访问：`IP:8899`
