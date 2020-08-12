@@ -2,6 +2,10 @@
 
 ## 基本信息
 
+| info | Description |
+| --- | --- |
+| size | 436MB |
+
 - ubuntu 20.04
 - python 3.8.2
 - python 2.7.18
