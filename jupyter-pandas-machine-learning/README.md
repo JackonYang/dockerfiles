@@ -30,4 +30,4 @@ docker run -it j-jupyter-pandas-machine-learning /bin/bash
 ## 注意事项
 
 1. 代码 mount 进来。
-2. juypter server 默认不需要密码，且以 root 运行。使用方便，暴露在公网有很大的安全风险。
+2. juypter server 默认不需要密码，且以 root 运行。使用方便，但，暴露在公网有很大的安全风险。
