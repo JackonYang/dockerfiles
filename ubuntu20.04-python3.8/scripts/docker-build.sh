@@ -1,9 +1,9 @@
 image_version=0.1
 
-MYSELF="$(readlink -f "$0")"
+MYSELF=`pwd`/$0
 MYDIR="${MYSELF%/*}"
 
-project_dir="$(readlink -f ${MYDIR}/../)"
+project_dir=`dirname ${MYDIR}`
 
 image_basename=j-$(basename $project_dir)
 image_name=${image_basename}:${image_version}
