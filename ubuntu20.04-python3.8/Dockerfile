@@ -12,3 +12,7 @@ RUN apt-get update && \
 ENV PYTHONUNBUFFERED=0
 
 COPY dotfiles/pip.conf.aliyun /root/.pip/pip.conf
+
+COPY image_info.ini /image_info.ini
+
+WORKDIR /code
