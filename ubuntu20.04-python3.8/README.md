@@ -3,7 +3,7 @@
 ## 基本信息
 
 - ubuntu 20.04
-- python 3.8.5
+- python 3.8.2
 - python 2.7.18
 - pip 20.0.2
 - apt-get 使用阿里镜像源
