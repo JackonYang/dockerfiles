@@ -2,16 +2,16 @@
 
 ## 基本信息
 
-| info | Description |
+
+| info | Description/version |
 | --- | --- |
 | size | 436MB |
-
-- ubuntu 20.04
-- python 3.8.2
-- python 2.7.18
-- pip 20.0.2
-- apt-get 使用阿里镜像源
-- pip 使用阿里镜像源
+| ubuntu | 20.04 |
+| python3 | 3.8.2 |
+| python2 | 2.7.18 |
+| pip | 20.0.2 |
+| apt-get 源 | 阿里镜像源 |
+| pip 源 | 阿里镜像源 |
 
 
 ## 补充说明
