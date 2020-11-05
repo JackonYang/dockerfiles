@@ -4,16 +4,12 @@
 
 数据分析等，在另外单独的环境/镜像里搞。
 
+[https://hub.docker.com/r/jackon/apps-crawlers](https://hub.docker.com/r/jackon/apps-crawlers)
 
-## 快速上手
-
-#### 构建镜像
 
 ```bash
-cd dockerfiles/apps-crawlers
-make docker-build
+docker pull jackon/apps-crawlers
 ```
-
 
 ## 补充说明
 
