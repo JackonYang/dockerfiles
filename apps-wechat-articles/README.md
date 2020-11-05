@@ -2,6 +2,13 @@
 
 微信公众号文章，自动生成、发送的运行环境。
 
+[https://hub.docker.com/r/jackon/apps-wechat-articles](https://hub.docker.com/r/jackon/apps-wechat-articles)
+
+
+```bash
+docker pull jackon/apps-wechat-articles
+```
+
 依赖包括：
 
 - jinja2 文章模版渲染
@@ -11,14 +18,6 @@
 - 爬虫环境。数据等抓取
 
 ## 快速上手
-
-#### 构建镜像
-
-```bash
-cd dockerfiles/apps-wechat-articles
-make docker-build
-```
-
 
 ## 补充说明
 
