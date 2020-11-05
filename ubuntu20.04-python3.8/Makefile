@@ -6,5 +6,8 @@ docker-build:
 docker-run:
 	bash scripts/docker-run.sh
 
+docker-push:
+	bash scripts/docker-push.sh
 
-.PHONY: docker-build docker-run
+
+.PHONY: docker-build docker-run docker-push

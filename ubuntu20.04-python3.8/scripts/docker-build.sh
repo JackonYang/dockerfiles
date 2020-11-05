@@ -1,11 +1,12 @@
-image_version=0.1
+branch_name=`git rev-parse --abbrev-ref HEAD`
+image_version=`basename $branch_name`
 
 MYSELF=`pwd`/$0
 MYDIR="${MYSELF%/*}"
 
 project_dir=`dirname ${MYDIR}`
 
-image_basename=j-$(basename $project_dir)
+image_basename=jackon/$(basename $project_dir)
 image_name=${image_basename}:${image_version}
 latest_tag=${image_basename}:latest
 
