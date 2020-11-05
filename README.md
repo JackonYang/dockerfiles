@@ -2,6 +2,25 @@
 
 常用开发环境的 dockerfile & quick start
 
+## 构建镜像
+
+以 `ubuntu20.04-python3.8` 为例
+
+```bash
+# build image
+make docker-build
+
+# run a container and verify
+make docker-run
+root@8a2fe4db7b59:/code# cat /image_info.ini
+image_name=jackon/ubuntu20.04-python3.8
+image_version=1.0
+
+# push to hub.docker.com
+make docker-push
+```
+
+
 ## Tips
 
 - 配置 Docker 镜像站 [https://www.daocloud.io/mirror](https://www.daocloud.io/mirror)
