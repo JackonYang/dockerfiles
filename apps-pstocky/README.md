@@ -1,16 +1,11 @@
 # 炒股镜像
 
+假装能自动炒股赚钱
+
 [https://hub.docker.com/r/jackon/apps-pstocky](https://hub.docker.com/r/jackon/apps-pstocky)
 
-假装能自动赚钱
-
-## 快速上手
-
-#### 构建镜像
-
 ```bash
-cd dockerfiles/apps-pstocky
-make docker-build
+docker pull jackon/apps-pstocky
 ```
 
 
