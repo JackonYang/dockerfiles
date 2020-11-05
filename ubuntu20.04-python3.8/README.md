@@ -1,6 +1,6 @@
 # python3 基础镜像
 
-published to docker hub: [https://hub.docker.com/repository/docker/jackon/ubuntu20.04-python3.8](https://hub.docker.com/repository/docker/jackon/ubuntu20.04-python3.8)
+published to docker hub: [https://hub.docker.com/r/jackon/ubuntu20.04-python3.8/tags](https://hub.docker.com/r/jackon/ubuntu20.04-python3.8/tags)
 
 ## 基本信息
 
