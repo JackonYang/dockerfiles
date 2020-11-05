@@ -1,4 +1,4 @@
-FROM j-ubuntu20.04-python3.8
+FROM jackon/ubuntu20.04-python3.8:latest
 
 MAINTAINER JackonYang <i@jackon.me>
 
@@ -19,6 +19,7 @@ RUN pip install \
     opencv-python \
     seaborn
 
+COPY image_info.ini /image_info.ini
 WORKDIR /code
 
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8899", "--no-browser", "--allow-root", "--NotebookApp.token=''", "--NotebookApp.password=''"]

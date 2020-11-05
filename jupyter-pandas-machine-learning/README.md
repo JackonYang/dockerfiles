@@ -3,6 +3,9 @@
 docker 领域的 anaconda
 
 
+[https://hub.docker.com/r/jackon/jupyter-pandas-machine-learning](https://hub.docker.com/r/jackon/jupyter-pandas-machine-learning)
+
+
 ## 快速上手
 
 #### 构建镜像
