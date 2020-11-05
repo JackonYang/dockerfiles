@@ -1,6 +1,13 @@
 # python3 基础镜像
 
-published to docker hub: [https://hub.docker.com/r/jackon/ubuntu20.04-python3.8/tags](https://hub.docker.com/r/jackon/ubuntu20.04-python3.8/tags)
+适合大陆网络环境的默认 mirror 配置
+
+[https://hub.docker.com/r/jackon/ubuntu20.04-python3.8](https://hub.docker.com/r/jackon/ubuntu20.04-python3.8)
+
+```bash
+docker pull jackon/ubuntu20.04-python3.8
+```
+
 
 ## 基本信息
 

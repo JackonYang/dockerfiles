@@ -1,5 +1,7 @@
 # 炒股镜像
 
+[https://hub.docker.com/r/jackon/apps-pstocky](https://hub.docker.com/r/jackon/apps-pstocky)
+
 假装能自动赚钱
 
 ## 快速上手
