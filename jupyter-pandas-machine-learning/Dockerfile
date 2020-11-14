@@ -17,6 +17,7 @@ RUN pip install \
     matplotlib \
     Pillow \
     opencv-python \
+    nltk \
     seaborn
 
 COPY image_info.ini /image_info.ini
