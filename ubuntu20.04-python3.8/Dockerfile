@@ -2,6 +2,8 @@ FROM ubuntu:20.04
 
 MAINTAINER JackonYang <i@jackon.me>
 
+RUN apt-get update && apt-get install -y ca-certificates && update-ca-certificates
+
 COPY dotfiles/sources.list.20.04.aliyun /etc/apt/sources.list
 
 RUN apt-get update && \
