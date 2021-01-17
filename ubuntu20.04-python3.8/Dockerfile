@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-MAINTAINER JackonYang <i@jackon.me>
+LABEL author="JackonYang <i@jackon.me>"
 
 RUN apt-get update && apt-get install -y ca-certificates && update-ca-certificates
 
