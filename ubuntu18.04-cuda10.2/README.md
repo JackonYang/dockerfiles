@@ -2,10 +2,10 @@
 
 适合大陆网络环境的默认 mirror 配置
 
-[https://hub.docker.com/r/jackon/ubuntu20.04-python3.8](https://hub.docker.com/r/jackon/ubuntu20.04-python3.8)
+[https://hub.docker.com/r/jackon/ubuntu18.04-cuda10.2](https://hub.docker.com/r/jackon/ubuntu18.04-cuda10.2)
 
 ```bash
-docker pull jackon/ubuntu20.04-python3.8
+docker pull jackon/ubuntu18.04-cuda10.2
 ```
 
 
@@ -14,7 +14,7 @@ docker pull jackon/ubuntu20.04-python3.8
 
 | info | Description/version |
 | --- | --- |
-| size | 436MB |
+| size | 1.8GB |
 | ubuntu | 18.04 |
 | python3 | 3.6.9 |
 | python2 | 2.7.17 |
@@ -23,7 +23,9 @@ docker pull jackon/ubuntu20.04-python3.8
 | pip 源 | 阿里镜像源 |
 
 
-## 补充说明
+## GPU 环境检查
+
+在 docker 内，执行 nvidia-smi 能看到 GPU 卡即可。
 
 ```bash
 $ make docker-cuda-run
