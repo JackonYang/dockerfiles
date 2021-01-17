@@ -15,31 +15,34 @@ docker pull jackon/ubuntu20.04-python3.8
 | info | Description/version |
 | --- | --- |
 | size | 436MB |
-| ubuntu | 20.04 |
-| python3 | 3.8.2 |
-| python2 | 2.7.18 |
-| pip | 20.0.2 |
+| ubuntu | 18.04 |
+| python3 | 3.6.9 |
+| python2 | 2.7.17 |
+| pip | 20.3.3 |
 | apt-get 源 | 阿里镜像源 |
 | pip 源 | 阿里镜像源 |
 
 
 ## 补充说明
 
-
-ubuntu 20.04 自带 3.8.2
-
-python 最新版本是 3.8.5，无重大更新。
-
-为了最简化环境 setup，不升级 python3 到最新版。
-
-
 ```bash
-root@da4767d3429e:/# python --version
-Python 2.7.18rc1
-root@da4767d3429e:/# python3 --version
-Python 3.8.2
-root@da4767d3429e:/# pip -V
-pipip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
-root@da4767d3429e:/# pip3 -V
-pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
+$ make docker-cuda-run
+bash scripts/docker-cuda-run.sh
+root@b9baec021541:/code# nvidia-smi
+Sun Jan 17 02:56:46 2021
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.100      Driver Version: 440.100      CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1080    Off  | 00000000:01:00.0 Off |                  N/A |
+|  0%   26C    P8     6W / 200W |     17MiB /  8118MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
++-----------------------------------------------------------------------------+
 ```
