@@ -6,4 +6,5 @@ workspace=/home/`whoami`
 docker run --rm \
     -v ${workspace}:${workspace} \
     -v ${workspace}:/code/myhome \
+    --gpus all \
     -it ${image_name}:${image_version} /bin/bash

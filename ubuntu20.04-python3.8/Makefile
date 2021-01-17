@@ -6,6 +6,9 @@ docker-build:
 docker-run:
 	bash scripts/docker-run.sh
 
+docker-cuda-run:
+	bash scripts/docker-cuda-run.sh
+
 docker-push:
 	bash scripts/docker-push.sh
 
