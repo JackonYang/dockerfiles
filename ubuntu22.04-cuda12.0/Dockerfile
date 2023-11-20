@@ -6,17 +6,17 @@ RUN apt-get update && apt-get install -y ca-certificates && update-ca-certificat
 
 COPY dotfiles/sources.list.22.04.aliyun /etc/apt/sources.list
 
-RUN apt-get update
+RUN apt-get update | true
 
-RUN apt install -y htop nload silversearcher-ag ncdu cloc jq
-
-RUN apt install -y libprotobuf-dev protobuf-compiler
-RUN apt install -y ninja-build
+RUN apt-get install -y libprotobuf-dev protobuf-compiler
+RUN apt-get install -y ninja-build
 
 # install perf
-RUN apt install -y linux-tools-common linux-tools-generic linux-tools-`uname -r`
+RUN apt-get install -y linux-tools-common linux-tools-generic linux-tools-`uname -r`
 
 # RUN apt-get install -y libnuma1
+
+# RUN apt-get install -y htop nload silversearcher-ag ncdu cloc jq
 
 # python
 # RUN apt-get install -y python python3 python3-pip python3-dev && \
